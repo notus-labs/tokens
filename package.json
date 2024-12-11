@@ -1,0 +1,59 @@
+{
+  "name": "@patara-app/tokens",
+  "version": "1.0.1",
+  "description": "Patara Tokens List",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist && rimraf tsconfig.prod.tsbuildinfo && rimraf tsconfig.tsbuildinfo",
+    "build:tsup": "tsup './src/index.ts' --format esm,cjs --sourcemap",
+    "build:types": "tsc --project tsconfig.prod.json --emitDeclarationOnly --declaration --outDir dist",
+    "build": "pnpm run clean && pnpm run build:tsup && pnpm run build:types",
+    "prepublishOnly": "pnpm run clean && pnpm run build",
+    "format": "prettier --write \"**/*.{js,ts,tsx,json}\"",
+    "lint": "eslint src",
+    "prepare": "husky"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.9.1",
+    "@types/bun": "latest",
+    "@types/lodash": "^4.17.7",
+    "@types/ramda": "^0.30.2",
+    "@types/react": ">=18.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "bun-plugin-dts": "^0.2.3",
+    "eslint": "^9.9.1",
+    "eslint-config-next": "14.2.7",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "husky": "^9.1.5",
+    "prettier": "^3.3.3",
+    "prettier-eslint": "^16.3.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.14.3"
+  }
+}
