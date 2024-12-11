@@ -1,13 +1,36 @@
-## Description
+## Token Addition Request
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+This pull request is for adding a new token to the library. Please fill in the following information:
 
-Fixes # (issue)
+_Side note: You can only add tags that Patara has chosen for the token. These include, DeFi, LST, Stable, Meme, Gas, Bridged, Strict._
 
-## Type of change
+### Token Information
 
-Please delete options that are not relevant.
+- Token Name:
+- Token Symbol:
+- Token Struct Type:
+- Token Decimals:
+- Token Icon URL:
+- Token Tags(optional):
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+### Verification
+
+Please confirm the following:
+
+- [ ] Token contract is verified on the blockchain explorer
+- [ ] Token is actively trading/has liquidity
+- [ ] Token contract address has been double-checked
+- [ ] Token information (name, symbol, decimals, struct type, icon url) is correct
+
+### Additional Context
+
+Please provide any additional information about the token that might be relevant (e.g., official website, documentation, audit reports).
+
+### Checklist
+
+- [ ] I have followed the project's token addition guidelines
+- [ ] I have updated relevant documentation (if applicable)
+
+### Related Issues
+
+Fixes # (issue number, if applicable)
