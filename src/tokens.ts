@@ -11,6 +11,17 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'DeFi'],
     },
+  '0xb45fcfcc2cc07ce0702cc2d229621e046c906ef14d9b25e8e4d25f6e8763fef7::send::SEND':
+    {
+      decimals: 6,
+      description: '',
+      iconUrl:
+        'https://suilend-assets.s3.us-east-2.amazonaws.com/SEND/SEND.svg',
+      name: 'SEND',
+      symbol: 'SEND',
+      verified: true,
+      tags: ['Strict', 'DeFi'],
+    },
   '0xe1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE':
     {
       decimals: 9,
