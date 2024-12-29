@@ -1640,6 +1640,16 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'DeFi'],
     },
+  '0xe68fad47384e18cd79040cb8d72b7f64d267eebb73a0b8d54711aa860570f404::upsui::UPSUI':
+    {
+      decimals: 9,
+      description: 'Double Up Staked Sui',
+      iconUrl: 'https://www.doubleup.fun/Diamond_Only.png',
+      name: 'Double Up Sui',
+      symbol: 'UPSUI',
+      verified: true,
+      tags: ['Strict', 'DeFi'],
+    },
   '0x502867b177303bf1bf226245fcdd3403c177e78d175a55a56c0602c7ff51c7fa::trevin_sui::TREVIN_SUI':
     {
       decimals: 9,
