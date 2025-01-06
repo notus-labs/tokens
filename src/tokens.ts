@@ -1650,6 +1650,16 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'DeFi'],
     },
+  '0x92f75743661ac21edf3c31f0be7dba6d35e6d01b387f6170665eb8ea88827ae3::jack::JACK':
+    {
+      decimals: 6,
+      description: '$JACK is the only blue crab on SUI.',
+      iconUrl: 'https://api.movepump.com/uploads/Profile_Photo_9ea5a1a18d.jpg',
+      name: 'Jack The Crab',
+      symbol: 'JACK',
+      verified: true,
+      tags: ['Strict', 'Meme'],
+    },
   '0x502867b177303bf1bf226245fcdd3403c177e78d175a55a56c0602c7ff51c7fa::trevin_sui::TREVIN_SUI':
     {
       decimals: 9,
