@@ -1660,6 +1660,17 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'Meme'],
     },
+  '0x375f70cf2ae4c00bf37117d0c85a2c71545e6ee05c4a5c7d282cd66a4504b068::usdt::USDT':
+    {
+      decimals: 6,
+      description: 'Sui bridged USDT',
+      iconUrl:
+        'data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAsVBMVEUAAADA5v+/5/+/5//A5v/A5v+/3/+/5P/A5v+/5v/A5f/B5v+/5v+/5f/A5v+/5/+/5P+/6v/B5//A5f+/5v/A5/+/5P/B5//B6P+/5f/A5v8iY6dKhL02c7J7rNhxpNNelMi23vpnnM6YxemEtd6s1fQsa6yize9Kg702dLJAe7eOveRAfLhUi8KOveOize5AfLddlMhxpdOFtd6s1vRUjMN7rdgsa6223vmPveN7rdkEulxQAAAAGnRSTlMA3yBAv+8QkK9Qn49wgM9gYDB/z6CfMF9vsOiUobQAAAQaSURBVHhezdtXc+M2FIbhD4Wkutx2NzlgLyqu21P+/w/LyJoNMpJIkRSFk+faY7yWMYAuDtCLHM+mEy0EvRP3ejSdqVs4IZfTe49O8vR0LHFNvpoKOuN+onAlauJRK95kjMHd3nnUgZhIDElp6kwrpuUtcTPg8mwJUtNFRhKX8O/oYnc+elOCBiAU+vGnNJAp+pCCBiMkOvvk0YC8GTqa0sDu0IU/osGNfLQm7+kKhOyy/XgK7Po8BXZ9ngK7PmeBL+iq7n00G9GVjdDojq5uiga/kQOfUEt65IAnUUeQE8JvvoDYtoEiZ1T9CcD4T7gjh+Y4IqlOHPa2pjqywxH4xfRWUB2NA0tyENC0D4XrAH34ATgIaPoIhPsADQuK3AeQgqU5ArQNkMQRQLf45QNPgD0OBU+Ahz2MiSXAbsMPXAET7HlcAZ7f6otImZ5yEBClp6ypmbL/gc4OAlLqI8DOgi9A2FOIJ4AkgDFnwA2AgDMgAKA5AxYAPM4AD/hInAEkoXgDxphRF9X6qYyTNA3Dg4AoDNM8iZ+KijqZIWi58lOc/tgaEz1u0jRJ4tIcKJMkSV82j5HZhmlcrKmdACM6J3vKw9XqMU3Kt6p2DxiyrcVr8vK4CvMio7Mm0NSo+Ppsory0K58JsN7il20YV9RMN94E2dfPZmN/R+sAG/Fl+/wtowYCgmr9XJlNQVaHAKvcRn83BjR+EUmILg2g759NVFGt+oCvxkQ0QAD9ZUyU9QgIjfkjGyLgpzHmW4+AxBgTVRcE2J1kzGuPgD8/vx+x1WUBRbire6YOAVZidsJ4TSc8RisbsIoiOpYV+f5ncqoHQfW+f9manehHXHOqZVWV0SlVmYf7wlVedT8HrPLl378yzOOndXb+uiqT9Hll9labMqMmC2g6p8g3xjLbMHy/jZ6KYl29WxfF7o7M0/B5a6zVS1zQORoP1EYR55uVaSt6TOPXitr4HQG1lr0V8f7KjU6turup86R8rTJqL8CM+jEHqJ8ZxrwBCpI34BbwOAM8AAvOAA0g4AwIACw5A8YAJGeABADBF7DATsAXMMGO4gtQ2PE9rgAPew9cARPsKa6AMfbg8QQI/DLnCZjgl488ARL/0hwBGpbiCFCwoN0HCFiAch9wMO+qXQcI7FjKdcANDmi3ASMckm4DJI7MXQbMccwXDgIaJ4mUuwCFkwJXAQFO84WbADHIMFt5YJBhNizJgRkaBHR1c/aRzmb+gmGMjWGsl6GAfbSaf7icf7z+XrI/cOhiTgML0NHMowF5N//bZz5OLobA537q1Zs/p4vNfVxCjugiWuJSS0G9aQXLfYJW3I9ehyQfBHXgzW8xuPFD64fPCleiHhZ0hgiUj2uS40DXPX5fBEsJJ27VLBjphaB3QuhJMBtL9PEPZu4mkryTsTYAAAAASUVORK5CYII=',
+      symbol: 'suiUSDT',
+      name: 'suiUSDT',
+      verified: true,
+      tags: ['Strict', 'Bridged', 'Stable'],
+    },
   '0x502867b177303bf1bf226245fcdd3403c177e78d175a55a56c0602c7ff51c7fa::trevin_sui::TREVIN_SUI':
     {
       decimals: 9,
