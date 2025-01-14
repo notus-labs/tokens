@@ -122,8 +122,8 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       description: '',
       iconUrl:
         'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAZlBMVEUAAAAAk5MAlJQAlJQAkpIAk5MAkpIAl5cAj48AlZUAj48Ak5MAk5MAk5MAk5MAlZUAkpIAk5MAlJQAkpIAk5MAlZUAk5MAk5MAn58AlJQAj48AlJQAlJQAk5MAlZUAkpIAkpIAk5M/E+zUAAAAIXRSTlMAQL/f34BgIBBgIO+gv88wcFCf76+ff5AQjzBwz2+vsI+0DawvAAADPklEQVR4Xu2YybbbIAyGBZihxnOc2OkdWr3/S7ZXmzYnCVPgsvG38crn/w5RJGF4zsHBwcHBwcGlwWz0CqLpMSsXiOSCmWEQhcbc9BDFgNmZIAKF+bEGgtECC3CFYBYsAov8AarV4S6QqFaHv7EU1sS0gGp1KLAgY3APrlaHGsuikoYgT2Jw1GFcCxDgILadSE8PLi6A2t2Dywv0bufyAji7W0B5AWGcLaC8AEp3CygvYDU8RBQV8NfhB5YU8K8m2j4XYA+4PcaR3XPFpwjz+hr246URKh3nVULAX4daFBXw1+GCJQX8dcjw2wWE+/3yAijT17CT4J/n2yPcPjkXyXWoMRBx3hTTBp5h2Dxt/IRhrFHnJ87TaCCMdt54TB1+oA8+aYjEzF2DHoawFnDaRkhD+RSmkBbAW0hnsv6r2hhaKYSelVzWobF3faAZ+vU6zeN+O6T8I+Et8C61s2kZbEAfsP11/lcyK7r45RfQFMAuvY1qRGKZdxLo0AUHAOYV2C9NUidcmFdg83+R1PvFJrdiMboFGirwtkEHo3hpFkwugdNPAK+BVs0LAtw4BBrKJ4PBIQCtfKhg+y+WZf16PJbkDKDznD8BZnD/C+buhLFwSa92rny/AQkQbOLhEu+bMkBA588nTBfwZc2waePv6OD0ft7UzdQU/ny3qlX3g25kSkl5/gv/y9dzk5Oax/tNYV99+X4DXDSkogQ+ZDDwCIlPWGdIQF8sOvKjDNCuaoQIdnYdEB354Qa3U47t4EPP09Kggw4Il4FbY71Kxdh4q6KpMJe1seihAyey9L2gAw+yrIAEL6qkgIQAVDkBCUHMtpCAhEBGW0CA8sMNcguQcQRtk1uA8tMN/AJ588kgp8CJAcQbZBOg9TfFIJMA5acZ5BFoWkjEDBkEKD+DQaoA5adj1lCBEvnu67Vk/2NL5ZNBOkMLryNfyDeQA1k3P92go/x6Bh1kRCblVzWQkBlVM59QNfOJ2VbMJ0Ybnl/V4A2KQStK9vUz/7pe0YDW34oGtH5WNKD8mgZNC9+CGarmk0HFfMKsNfOJrmY+0XnW3/LIu/WzngHlVzSg9bemQQfVUBxRvDb+Dw4ODg4ODv4AQvglylgHCQQAAAAASUVORK5CYII=',
-      name: 'USDT',
-      symbol: 'USDT',
+      name: 'wUSDT',
+      symbol: 'wUSDT',
       verified: true,
       tags: ['Strict', 'Stable', 'Bridged'],
     },
@@ -1660,6 +1660,28 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'Meme'],
     },
+  '0xbc858cb910b9914bee64fff0f9b38855355a040c49155a17b265d9086d256545::but::BUT':
+    {
+      decimals: 9,
+      description: 'Governance token of Bucket Protocol',
+      iconUrl:
+        'https://aqua-natural-grasshopper-705.mypinata.cloud/ipfs/QmUKAX4PME9Wb9VU6CMJPisNysaVKZNKpiB3gtMVVZTfjt',
+      name: 'Bucket Token',
+      symbol: 'BUT',
+      verified: true,
+      tags: ['Strict', 'DeFi'],
+    },
+  '0x46fbe54691b27d7abd2c9e5a01088913531f241b98f3c2351f8215e45cc17a4c::times::TIMES':
+    {
+      decimals: 5,
+      description: '$TIMES is the token for the DARKTIMES game',
+      iconUrl:
+        'https://assets.playdarktimes.com/images/icons/darktimes_logo.png',
+      name: 'TIMES',
+      symbol: '$TIMES',
+      verified: true,
+      tags: ['Strict', 'Gaming'],
+    },
   '0x375f70cf2ae4c00bf37117d0c85a2c71545e6ee05c4a5c7d282cd66a4504b068::usdt::USDT':
     {
       decimals: 6,
@@ -1669,7 +1691,7 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       symbol: 'suiUSDT',
       name: 'suiUSDT',
       verified: true,
-      tags: ['Strict', 'Bridged', 'Stable'],
+      tags: ['Strict', 'Stable', 'Bridged'],
     },
   '0x502867b177303bf1bf226245fcdd3403c177e78d175a55a56c0602c7ff51c7fa::trevin_sui::TREVIN_SUI':
     {
