@@ -1682,6 +1682,17 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'Gaming'],
     },
+  '0x5b40e84bd4b428fb7ae15a4a36ed1527d1b7bfaeae21855a499714175d215c2e::sai::SAI':
+    {
+      decimals: 6,
+      description:
+        "The stonefish is regarded as the most venomous fish in the world, and it's ready to take over the Sui Ocean! Socials coming soon—let's make waves! LFG!",
+      iconUrl: 'https://r.turbos.finance/icon/1733624223100.jpeg',
+      name: 'STONEFISH AI',
+      symbol: 'SAI',
+      verified: true,
+      tags: ['Strict', 'MeMe'],
+    },
   '0x3b68324b392cee9cd28eba82df39860b6b220dc89bdd9b21f675d23d6b7416f1::kdx::KDX':
     {
       decimals: 6,
