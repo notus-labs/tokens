@@ -1693,6 +1693,18 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'MeMe'],
     },
+  '0x4cf08813756dfa7519cb480a1a1a3472b5b4ec067592a8bee0f826808d218158::tardi::TARDI':
+    {
+      decimals: 9,
+      description:
+        'Hi, Im Tardi :) Unbreakable by design! Elon sent me to the moon, but now it’s time we go interplanetary',
+      iconUrl:
+        'https://bafybeieycjagqv7xtenzxss5xkcxgeru7wql6izhzokr4ay4xdbrul4ef4.ipfs.w3s.link',
+      name: 'Tardi',
+      symbol: 'TARDI',
+      verified: true,
+      tags: ['Strict', 'MeMe'],
+    },
   '0x3b68324b392cee9cd28eba82df39860b6b220dc89bdd9b21f675d23d6b7416f1::kdx::KDX':
     {
       decimals: 6,
