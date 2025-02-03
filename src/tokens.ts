@@ -76,6 +76,16 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'Bridged'],
     },
+  '0xaafb102dd0902f5055cadecd687fb5b71ca82ef0e0285d90afde828ec58ca96b::btc::BTC':
+    {
+      decimals: 8,
+      description: 'wBTC by Sui Bridge',
+      iconUrl: 'https://bridge-assets.sui.io/suiWBTC.png',
+      name: 'Wrapped Bitcoin',
+      symbol: 'wBTC',
+      verified: true,
+      tags: ['Strict', 'Bridged'],
+    },
   '0xdbe380b13a6d0f5cdedd58de8f04625263f113b3f9db32b3e1983f49e2841676::coin::COIN':
     {
       decimals: 8,
