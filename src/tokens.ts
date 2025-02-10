@@ -424,7 +424,7 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'Meme'],
     },
-  '0xe4cbb9bcb343ce93182725da11050640c7872453cdb7809e8b7e654581e32774::frog ::FROG':
+  '0xe4cbb9bcb343ce93182725da11050640c7872453cdb7809e8b7e654581e32774::frog::FROG':
     {
       decimals: 6,
       description:
