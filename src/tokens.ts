@@ -66,6 +66,17 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'Gas'],
     },
+  '0x0f03158a2caec1b656ee929007d08e58d620eeabeacac90ea7657d8b386b00b9::pwal::PWAL':
+    {
+      decimals: 9,
+      description: "Patara's Liquid Staking for Walrus",
+      iconUrl:
+        'https://interestprotocol.infura-ipfs.io/ipfs/QmaHxXK6Ch8TC9RVJQdbVvavUe695zSztZfGMHdWGeGFVZ',
+      name: 'Patara Staked Walrus',
+      symbol: 'pWAL',
+      verified: true,
+      tags: ['Strict', 'LST', 'DeFi'],
+    },
   '0x66f87084e49c38f76502d17f87d17f943f183bb94117561eb573e075fdc5ff75::coin::COIN':
     {
       decimals: 8,
