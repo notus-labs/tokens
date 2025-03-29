@@ -77,6 +77,17 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'LST', 'DeFi'],
     },
+  '0xb1b0650a8862e30e3f604fd6c5838bc25464b8d3d827fbd58af7cb9685b832bf::wwal::WWAL':
+    {
+      decimals: 9,
+      description: 'A Liquid Staking Wal Coin',
+      iconUrl:
+        'https://interestprotocol.infura-ipfs.io/ipfs/QmPLCVWv7citJSc813NbcbZnRSXAEJ4BWVKq4zK8pPVEWq',
+      name: '❄️ WAL',
+      symbol: 'wWAL',
+      verified: true,
+      tags: ['Strict', 'LST', 'DeFi'],
+    },
   '0x66f87084e49c38f76502d17f87d17f943f183bb94117561eb573e075fdc5ff75::coin::COIN':
     {
       decimals: 8,
