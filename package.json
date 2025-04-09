@@ -1,6 +1,6 @@
 {
   "name": "@patara-app/tokens",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Patara Tokens List",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
