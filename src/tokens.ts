@@ -178,6 +178,16 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'Bridged'],
     },
+  '0x87dfe1248a1dc4ce473bd9cb2937d66cdc6c30fee63f3fe0dbb55c7a09d35dec::up::UP':
+    {
+      decimals: 6,
+      description: 'UP Official Token',
+      iconUrl: 'https://www.doubleup.fun/Diamond_Only.png',
+      name: 'UP',
+      symbol: 'UP',
+      verified: true,
+      tags: ['Strict', 'DeFi'],
+    },
   '0xaafb102dd0902f5055cadecd687fb5b71ca82ef0e0285d90afde828ec58ca96b::btc::BTC':
     {
       decimals: 8,
