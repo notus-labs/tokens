@@ -188,6 +188,18 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'DeFi'],
     },
+  '0x8a51036977a1149620419c492a5af8c276fdb23cf3007882909a3e0d43593654::squirtle::SQUIRTLE':
+    {
+      decimals: 9,
+      description:
+        "SUI moves like water. Squirt is water. It's a perfect overlap: velocity, flexibility, power under pressure. $SQUIRT is a signal. A shell-shocked, shade-wearing surge toward a new frontier.",
+      iconUrl:
+        'https://ipfs.filebase.io/ipfs/QmanjUwujyjMFhinXp7MxADrTTu9JnN965QpYefp6YzzvC',
+      name: 'SQUIRTLE',
+      symbol: 'SQUIRT',
+      verified: true,
+      tags: ['Strict', 'Meme'],
+    },
   '0x0a2a868f6a8618b599e49f6b49240088d85b93660003da5a066841e28f19d629::pchu::PCHU':
     {
       decimals: 9,
