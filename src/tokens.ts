@@ -539,6 +539,18 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'LST', 'DeFi'],
     },
+  '0x4c981f3ff786cdb9e514da897ab8a953647dae2ace9679e8358eec1e3e8871ac::dmc::DMC':
+    {
+      decimals: 9,
+      description:
+        'DeLorean’s protocol is an industry first on-chain vehicle reservation and analytics system designed to solve real-world issues facing the automotive sector. At the heart of the DeLorean ecosystem lies $DMC, a token that combines cultural significance, utility, and the backing of an iconic Web2 brand.',
+      iconUrl:
+        'https://storage.googleapis.com/tokenimage.deloreanlabs.com/DMCTokenIcon.svg',
+      name: 'DeLorean',
+      symbol: 'DMC',
+      verified: true,
+      tags: ['Strict', 'DeFi'],
+    },
   '0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB':
     {
       decimals: 2,
