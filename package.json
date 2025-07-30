@@ -1,5 +1,5 @@
 {
-  "name": "@patara-app/tokens",
+  "name": "@notus-labs/patara-tokens",
   "version": "1.0.17",
   "description": "Patara Tokens List",
   "main": "dist/index.js",
