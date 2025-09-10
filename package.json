@@ -1,6 +1,6 @@
 {
   "name": "@notus-labs/patara-tokens",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Patara Tokens List",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
