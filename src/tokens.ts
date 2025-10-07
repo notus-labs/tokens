@@ -1907,6 +1907,17 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'DeFi'],
     },
+  '0x9d297676e7a4b771ab023291377b2adfaa4938fb9080b8d12430e4b108b836a9::xaum::XAUM':
+    {
+      decimals: 9,
+      description:
+        'Matrixdock Gold (XAUm) is a standardized token deployed on multiple chains, with a 1:1 peg to 1 troy oz. fine weight of high grade LBMA gold. The total supply of XAUm will always be equal to the amount of underlying assets stored in highly secured and reputable vaults.',
+      iconUrl: 'https://app.matrixdock.com/images/xaum/xaum-64x64-icon.png',
+      name: 'Matrixdock Gold',
+      symbol: 'XAUM',
+      verified: true,
+      tags: ['Strict', 'DeFi'],
+    },
 };
 
 export const TOKEN_LIST_KEYS = Object.keys(TOKEN_LIST);
