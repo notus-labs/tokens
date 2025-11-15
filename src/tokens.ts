@@ -1907,6 +1907,16 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: true,
       tags: ['Strict', 'DeFi'],
     },
+  '0x04deb377c33bfced1ab81cde96918e2538fe78735777150b0064ccf7df5e1c81::tato::TATO':
+    {
+      decimals: 9,
+      description: 'The core token of the Pawtato ecosystem',
+      iconUrl: 'https://img.pawtato.app/tato/TATO.png',
+      name: 'Pawtato',
+      symbol: 'TATO',
+      verified: true,
+      tags: ['Strict', 'DeFi'],
+    },
   '0x9d297676e7a4b771ab023291377b2adfaa4938fb9080b8d12430e4b108b836a9::xaum::XAUM':
     {
       decimals: 9,
