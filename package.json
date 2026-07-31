@@ -1,6 +1,6 @@
 {
   "name": "@notus-labs/patara-tokens",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "Patara Tokens List",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -54,6 +54,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@mysten/sui": "^1.14.3"
+    "@mysten/sui": "^2.23.1"
   }
 }
