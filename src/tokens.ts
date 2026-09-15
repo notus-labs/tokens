@@ -829,7 +829,8 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
     {
       decimals: 6,
       description: 'I got a chronic case of that UP SUI-NDROME',
-      iconUrl: 'https://api.movepump.com/uploads/SUICAT_min_191f9c8bbb.png',
+      // iconUrl: 'https://api.movepump.com/uploads/SUICAT_min_191f9c8bbb.png',
+      iconUrl: 'https://my.patara.app/coin-icons/suicat-big-image.webp',
       name: 'UP SUI-NDROME',
       symbol: 'UPS',
       verified: true,
