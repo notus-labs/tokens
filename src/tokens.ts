@@ -1972,6 +1972,16 @@ export const TOKEN_LIST: Record<string, CoinMetadataWithExternal> = {
       verified: false,
       tags: ['Strict', 'Meme'],
     },
+  '0x90cadc4e54a500a0c930f86fffb4f2c41427b232e2642d64210c1eba153514c3::suipump::SUIPUMP':
+    {
+      decimals: 6,
+      description: 'Bag em up\nSui needs a runner.  \nWork for those bags.',
+      iconUrl: 'https://i.imgur.com/xEqESaQ.jpeg',
+      name: 'Bag',
+      symbol: 'BAG',
+      verified: false,
+      tags: ['Strict', 'Meme'],
+    },
   '0x577a8addf60a34d4c705914ad066a3b28c3fc40d365ed0d9dfc408f29b4725d3::blast::BLAST':
     {
       decimals: 9,
